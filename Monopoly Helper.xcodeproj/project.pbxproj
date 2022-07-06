@@ -8,17 +8,49 @@
 
 /* Begin PBXBuildFile section */
 		620FAF1A2870C27000D10200 /* Monopoly_HelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620FAF192870C27000D10200 /* Monopoly_HelperApp.swift */; };
-		620FAF1C2870C27000D10200 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620FAF1B2870C27000D10200 /* ContentView.swift */; };
+		620FAF1C2870C27000D10200 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620FAF1B2870C27000D10200 /* Home.swift */; };
 		620FAF1E2870C27100D10200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 620FAF1D2870C27100D10200 /* Assets.xcassets */; };
 		620FAF212870C27100D10200 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 620FAF202870C27100D10200 /* Preview Assets.xcassets */; };
+		620FAF2B2870D01C00D10200 /* Chooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620FAF2A2870D01C00D10200 /* Chooser.swift */; };
+		620FAF662875E58000D10200 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620FAF652875E58000D10200 /* SettingsLabelView.swift */; };
+		620FAF682875E59C00D10200 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620FAF672875E59C00D10200 /* SettingsRowView.swift */; };
+		620FAF6A2875E5D200D10200 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620FAF692875E5D200D10200 /* SettingsView.swift */; };
+		627A2B622875ED6100FB5000 /* HousingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627A2B612875ED6100FB5000 /* HousingData.swift */; };
+		627A2B652875EDFA00FB5000 /* HousingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627A2B642875EDFA00FB5000 /* HousingModel.swift */; };
+		627A2B6B2875F61900FB5000 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627A2B6A2875F61900FB5000 /* CardModel.swift */; };
+		627A2B6D2875F6C500FB5000 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627A2B6C2875F6C500FB5000 /* CardData.swift */; };
+		627A2B6F28761B1000FB5000 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627A2B6E28761B1000FB5000 /* StartButtonView.swift */; };
+		627A2B7128761C4000FB5000 /* ChooserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627A2B7028761C4000FB5000 /* ChooserModel.swift */; };
+		627A2B7328761CBB00FB5000 /* ChooserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627A2B7228761CBB00FB5000 /* ChooserData.swift */; };
+		627A2B7528761EC500FB5000 /* ChooserCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627A2B7428761EC500FB5000 /* ChooserCardView.swift */; };
+		627A2B77287628FD00FB5000 /* Bankruptcy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627A2B76287628FD00FB5000 /* Bankruptcy.swift */; };
+		627A2B792876290E00FB5000 /* HouseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627A2B782876290E00FB5000 /* HouseApp.swift */; };
+		627A2B7B2876291C00FB5000 /* Mortgage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627A2B7A2876291C00FB5000 /* Mortgage.swift */; };
+		627A2B7D2876292800FB5000 /* Unmortgage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627A2B7C2876292800FB5000 /* Unmortgage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		620FAF162870C27000D10200 /* Monopoly Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Monopoly Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		620FAF192870C27000D10200 /* Monopoly_HelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monopoly_HelperApp.swift; sourceTree = "<group>"; };
-		620FAF1B2870C27000D10200 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		620FAF1B2870C27000D10200 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		620FAF1D2870C27100D10200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		620FAF202870C27100D10200 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		620FAF2A2870D01C00D10200 /* Chooser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chooser.swift; sourceTree = "<group>"; };
+		620FAF652875E58000D10200 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
+		620FAF672875E59C00D10200 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
+		620FAF692875E5D200D10200 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		627A2B612875ED6100FB5000 /* HousingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousingData.swift; sourceTree = "<group>"; };
+		627A2B642875EDFA00FB5000 /* HousingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousingModel.swift; sourceTree = "<group>"; };
+		627A2B6A2875F61900FB5000 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		627A2B6C2875F6C500FB5000 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		627A2B6E28761B1000FB5000 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		627A2B7028761C4000FB5000 /* ChooserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooserModel.swift; sourceTree = "<group>"; };
+		627A2B7228761CBB00FB5000 /* ChooserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooserData.swift; sourceTree = "<group>"; };
+		627A2B7428761EC500FB5000 /* ChooserCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooserCardView.swift; sourceTree = "<group>"; };
+		627A2B76287628FD00FB5000 /* Bankruptcy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bankruptcy.swift; sourceTree = "<group>"; };
+		627A2B782876290E00FB5000 /* HouseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseApp.swift; sourceTree = "<group>"; };
+		627A2B7A2876291C00FB5000 /* Mortgage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mortgage.swift; sourceTree = "<group>"; };
+		627A2B7C2876292800FB5000 /* Unmortgage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unmortgage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +83,11 @@
 		620FAF182870C27000D10200 /* Monopoly Helper */ = {
 			isa = PBXGroup;
 			children = (
-				620FAF192870C27000D10200 /* Monopoly_HelperApp.swift */,
-				620FAF1B2870C27000D10200 /* ContentView.swift */,
+				627A2B632875ED9C00FB5000 /* Data */,
+				620FAF272870C6B000D10200 /* Model */,
+				620FAF642875E44600D10200 /* App */,
+				620FAF282870C6B500D10200 /* View */,
+				620FAF292870C6BA00D10200 /* Controller */,
 				620FAF1D2870C27100D10200 /* Assets.xcassets */,
 				620FAF1F2870C27100D10200 /* Preview Content */,
 			);
@@ -65,6 +100,59 @@
 				620FAF202870C27100D10200 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		620FAF272870C6B000D10200 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				627A2B642875EDFA00FB5000 /* HousingModel.swift */,
+				627A2B6A2875F61900FB5000 /* CardModel.swift */,
+				627A2B7028761C4000FB5000 /* ChooserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		620FAF282870C6B500D10200 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				620FAF652875E58000D10200 /* SettingsLabelView.swift */,
+				620FAF672875E59C00D10200 /* SettingsRowView.swift */,
+				627A2B6E28761B1000FB5000 /* StartButtonView.swift */,
+				627A2B7428761EC500FB5000 /* ChooserCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		620FAF292870C6BA00D10200 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		620FAF642875E44600D10200 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				620FAF192870C27000D10200 /* Monopoly_HelperApp.swift */,
+				620FAF1B2870C27000D10200 /* Home.swift */,
+				620FAF2A2870D01C00D10200 /* Chooser.swift */,
+				620FAF692875E5D200D10200 /* SettingsView.swift */,
+				627A2B76287628FD00FB5000 /* Bankruptcy.swift */,
+				627A2B782876290E00FB5000 /* HouseApp.swift */,
+				627A2B7A2876291C00FB5000 /* Mortgage.swift */,
+				627A2B7C2876292800FB5000 /* Unmortgage.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		627A2B632875ED9C00FB5000 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				627A2B612875ED6100FB5000 /* HousingData.swift */,
+				627A2B6C2875F6C500FB5000 /* CardData.swift */,
+				627A2B7228761CBB00FB5000 /* ChooserData.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +225,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				620FAF1C2870C27000D10200 /* ContentView.swift in Sources */,
+				627A2B7528761EC500FB5000 /* ChooserCardView.swift in Sources */,
+				620FAF1C2870C27000D10200 /* Home.swift in Sources */,
+				627A2B7128761C4000FB5000 /* ChooserModel.swift in Sources */,
+				620FAF2B2870D01C00D10200 /* Chooser.swift in Sources */,
+				627A2B7D2876292800FB5000 /* Unmortgage.swift in Sources */,
+				627A2B7B2876291C00FB5000 /* Mortgage.swift in Sources */,
+				620FAF682875E59C00D10200 /* SettingsRowView.swift in Sources */,
+				627A2B7328761CBB00FB5000 /* ChooserData.swift in Sources */,
+				627A2B652875EDFA00FB5000 /* HousingModel.swift in Sources */,
+				620FAF6A2875E5D200D10200 /* SettingsView.swift in Sources */,
+				627A2B6D2875F6C500FB5000 /* CardData.swift in Sources */,
+				627A2B77287628FD00FB5000 /* Bankruptcy.swift in Sources */,
+				627A2B792876290E00FB5000 /* HouseApp.swift in Sources */,
+				627A2B6B2875F61900FB5000 /* CardModel.swift in Sources */,
+				620FAF662875E58000D10200 /* SettingsLabelView.swift in Sources */,
+				627A2B6F28761B1000FB5000 /* StartButtonView.swift in Sources */,
 				620FAF1A2870C27000D10200 /* Monopoly_HelperApp.swift in Sources */,
+				627A2B622875ED6100FB5000 /* HousingData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +377,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,6 +407,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
