@@ -11,15 +11,22 @@ struct Chooser: View {
     //MARK: - Property
     @AppStorage("isHomeViewActive") var isHomeViewActive: Bool = false
     @State private var isShowingSettings: Bool = false
+    @State private var colorName: String = "BoardGray"
     var chooser: [ChooserModel] = chooserData
     
     var body: some View {
         //MARK: - Body
         ZStack{
-            Color("BoardGray")
-                .ignoresSafeArea()
             VStack {
+                
                 HStack {
+                    Spacer()
+                    Text("Monopoly Helper")
+                        .foregroundColor(.white)
+                        .font(.title)
+                        .fontWeight(.bold)
+                        .padding(.leading, 30)
+                        
                     Spacer()
                     Button(action: {
                         isShowingSettings = true
@@ -28,14 +35,20 @@ struct Chooser: View {
                             .resizable()
                             .foregroundColor(.white)
                             .scaledToFit()
+                
                     })//: Button
                     .sheet(isPresented: $isShowingSettings, content: {
                         SettingsView()
                     })
                     .frame(width: 20, height: 20)
-                    .padding(.top, 30)
-                    .padding(.horizontal, 30)
+                    .padding(.trailing, 30)
                 }
+                .padding()
+                .background(
+                Capsule()
+                    .foregroundColor(Color(colorName))
+                    .padding(.horizontal)
+                )
 
                 TabView{
                     ForEach(chooser[0...3]) { item in

@@ -17,4 +17,5 @@ struct House: Identifiable{
     var houseMortgagePrice : Int {
         return housePrice / 2
     }
+    var number: Int
 }

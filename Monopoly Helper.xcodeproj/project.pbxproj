@@ -27,6 +27,8 @@
 		627A2B792876290E00FB5000 /* HouseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627A2B782876290E00FB5000 /* HouseApp.swift */; };
 		627A2B7B2876291C00FB5000 /* Mortgage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627A2B7A2876291C00FB5000 /* Mortgage.swift */; };
 		627A2B7D2876292800FB5000 /* Unmortgage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627A2B7C2876292800FB5000 /* Unmortgage.swift */; };
+		627A2B81287C9D5E00FB5000 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627A2B80287C9D5E00FB5000 /* Color.swift */; };
+		627A2B83287CB4C600FB5000 /* Calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627A2B82287CB4C600FB5000 /* Calculate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		627A2B782876290E00FB5000 /* HouseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseApp.swift; sourceTree = "<group>"; };
 		627A2B7A2876291C00FB5000 /* Mortgage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mortgage.swift; sourceTree = "<group>"; };
 		627A2B7C2876292800FB5000 /* Unmortgage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unmortgage.swift; sourceTree = "<group>"; };
+		627A2B80287C9D5E00FB5000 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		627A2B82287CB4C600FB5000 /* Calculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 				627A2B642875EDFA00FB5000 /* HousingModel.swift */,
 				627A2B6A2875F61900FB5000 /* CardModel.swift */,
 				627A2B7028761C4000FB5000 /* ChooserModel.swift */,
+				627A2B80287C9D5E00FB5000 /* Color.swift */,
+				627A2B82287CB4C600FB5000 /* Calculate.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -233,9 +239,11 @@
 				627A2B7B2876291C00FB5000 /* Mortgage.swift in Sources */,
 				620FAF682875E59C00D10200 /* SettingsRowView.swift in Sources */,
 				627A2B7328761CBB00FB5000 /* ChooserData.swift in Sources */,
+				627A2B83287CB4C600FB5000 /* Calculate.swift in Sources */,
 				627A2B652875EDFA00FB5000 /* HousingModel.swift in Sources */,
 				620FAF6A2875E5D200D10200 /* SettingsView.swift in Sources */,
 				627A2B6D2875F6C500FB5000 /* CardData.swift in Sources */,
+				627A2B81287C9D5E00FB5000 /* Color.swift in Sources */,
 				627A2B77287628FD00FB5000 /* Bankruptcy.swift in Sources */,
 				627A2B792876290E00FB5000 /* HouseApp.swift in Sources */,
 				627A2B6B2875F61900FB5000 /* CardModel.swift in Sources */,

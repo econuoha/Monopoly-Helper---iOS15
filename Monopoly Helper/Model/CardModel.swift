@@ -17,5 +17,6 @@ struct Card: Identifiable{
     var unmortgageValue: Int {
         return mortgageValue + ( mortgageValue / 10 )
     }
+    var isOn: Bool
     
 }

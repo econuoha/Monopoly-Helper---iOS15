@@ -14,12 +14,18 @@ struct Mortgage: View {
     
     //MARK: - Body
     var body: some View {
-        Text("Mortgage")
-        Button {
-            isMortgage = false
-        } label: {
-            Text("Back")
+        ZStack {
+            VStack {
+                Text("Mortgage")
+                Button {
+                    isMortgage = false
+                } label: {
+                    Text("Back")
+                        .foregroundColor(Color("BoardDarkBlue"))
+                }
+            }
         }
+        
     }
 }
 

@@ -14,12 +14,18 @@ struct Unmortgage: View {
     
     //MARK: - Body
     var body: some View {
-        Text("Unmortgage")
-        Button {
-            isUnmortgage = false
-        } label: {
-            Text("Back")
+        ZStack {
+            VStack {
+                Text("Unmortgage")
+                Button {
+                    isUnmortgage = false
+                } label: {
+                    Text("Back")
+                        .foregroundColor(Color("BoardDarkBlue"))
+                }
+            }
         }
+        
     }
 }
 
